@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2.0,
+  "id": "obsernia_fortigate_overview",
+  "type": "widget",
+  "name": "Obsernia FortiGate Overview",
+  "namespace": "ObserniaFortiGateOverview",
+  "version": "1.3",
+  "author": "Pablo Lisaso — Obsernia",
+  "url": "https://obsernia.com/",
+  "copyright": "© 2026 Pablo Lisaso — Obsernia",
+  "description": "Panel de FortiGate sobre Zabbix, con detección automática de las plantillas oficiales by HTTP y by SNMP.",
+  "actions": {
+    "widget.obsernia_fortigate_overview.view": {
+      "class": "WidgetView"
+    }
+  },
+  "widget": {
+    "name": "Obsernia FortiGate Overview",
+    "size": {
+      "width": 18,
+      "height": 10
+    },
+    "form_class": "WidgetForm",
+    "js_class": "WidgetObserniaFortiGateOverview",
+    "use_time_selector": false,
+    "refresh_rate": 60
+  },
+  "assets": {
+    "css": ["widget.css"],
+    "js": ["class.widget.js"]
+  }
+}
