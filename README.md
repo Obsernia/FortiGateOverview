@@ -9,7 +9,7 @@ Widget para **Zabbix 8.0** orientado a equipos FortiGate. Detecta automáticamen
 | Nombre | Obsernia FortiGate Overview |
 | Module id | `obsernia_fortigate_overview` |
 | Namespace | `ObserniaFortiGateOverview` |
-| Versión | 1.3 |
+| Versión | 1.4 |
 | Autor | Pablo Lisaso — Obsernia |
 | Sitio | https://obsernia.com/ |
 
